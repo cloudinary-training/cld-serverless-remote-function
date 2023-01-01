@@ -1,0 +1,19 @@
+{
+  "name": "cld-remote-serverless",
+  "version": "1.0.0",
+  "description": "Serverless function to process custom Cloudinary transformation ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify functions:serve",
+    "test": "echo \"Error: no test specified\" && exit 1"  
+  },
+  "author": "Cloudinary Customer Education",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.33.0",
+    "dotenv": "^16.0.3",
+    "lambda-multipart-parser": "^1.0.1",
+    "moment": "^2.29.4",
+    "sharp": "^0.31.3"
+  }
+}
